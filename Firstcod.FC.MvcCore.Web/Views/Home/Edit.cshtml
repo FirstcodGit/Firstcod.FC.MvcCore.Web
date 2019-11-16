@@ -1,0 +1,30 @@
+﻿@using Firstcod.FC.Provider.Models
+@model Transaction
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="card">
+        <div class="card-header">
+            Edit
+        </div>
+        <div class="card-body">
+
+            <form action="/home/edit/@Model.Id" method="post">
+                <div class="form-group">
+                    <label for="account">Account address</label>
+                    <input type="text" class="form-control" id="account" name="account" value="@Model.Account" />
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="text" class="form-control" id="amount" name="amount" value="@Model.Amount" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Edit</button>
+            </form>
+
+        </div>
+    </div>
+

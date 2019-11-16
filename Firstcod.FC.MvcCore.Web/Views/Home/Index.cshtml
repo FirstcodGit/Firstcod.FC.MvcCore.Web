@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*https://getbootstrap.com/docs/4.3/components/card/#header-and-footer*@
+
+<div class="card">
+    <div class="card-header">
+        Home
+    </div>
+    <div class="card-body">
+
+        <form action="/home/post" data-ajax="true" data-ajax-method="post" data-ajax-success="postForm" method="post">
+            <div class="form-group">
+                <label for="account">Account address</label>
+                <input type="text" class="form-control" id="account" name="account" />
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="text" class="form-control" id="amount" name="amount" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+
+        function postForm(result) {
+
+            console.log(result.message);
+            $("#account").val("");
+            $("#amount").val("");
+        }
+
+    </script>
+}

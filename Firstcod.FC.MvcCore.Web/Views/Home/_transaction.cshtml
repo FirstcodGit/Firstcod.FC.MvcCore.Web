@@ -1,0 +1,18 @@
+﻿@using Firstcod.FC.Provider.Models
+@model IEnumerable<Transaction>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <th scope="row">@item.Id</th>
+        <td>@item.Account</td>
+        <td>@item.Amount</td>
+        <td>@string.Format("{0:dd MMMM yyyy}", item.CreateDate)</td>
+        <td>
+            <a href="@Url.Action("edit","home", new { id = item.Id })" class="btn btn-info">Edit</a>
+            <a href="@Url.Action("delete","home", new { id = item.Id })" 
+               data-ajax="true" data-ajax-method="post" data-ajax-success="deleteItem" 
+               data-ajax-confirm="Silmek istiyormusunuz?" class="btn btn-danger">Delete</a>
+        </td>
+    </tr>
+}

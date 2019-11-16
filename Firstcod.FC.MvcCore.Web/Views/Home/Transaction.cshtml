@@ -1,0 +1,44 @@
+﻿@using Firstcod.FC.Provider.Models
+@model IEnumerable<Transaction>
+@{
+    ViewData["Title"] = "Transaction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Transaction
+    </div>
+    <div class="card-body">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Account</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Create Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="updateTable">
+
+                @{ await Html.RenderPartialAsync("_transaction", Model); }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+
+        function deleteItem(result) {
+
+            if (result.value == 1)
+                $("#updateTable").load("/home/_transaction");
+        }
+    </script>
+}
