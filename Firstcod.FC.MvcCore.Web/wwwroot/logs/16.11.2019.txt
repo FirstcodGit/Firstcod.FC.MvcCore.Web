@@ -1,0 +1,166 @@
+16.11.2019 21:39:29 Information 0 Application started. Press Ctrl+C to shut down.
+16.11.2019 21:39:29 Information 0 Hosting environment: Development
+16.11.2019 21:39:29 Information 0 Content root path: C:\Users\Administrator\source\repos\Firstcod.FC.MvcCore.Web\Firstcod.FC.MvcCore.Web
+16.11.2019 21:39:29 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/  
+16.11.2019 21:39:29 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:29 Information 3 Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:29 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:29 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7651ms.
+16.11.2019 21:39:29 Information 1 Executing ViewResult, running view Index.
+16.11.2019 21:39:30 Information 4 Executed ViewResult - view Index executed in 258.4802ms.
+16.11.2019 21:39:30 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) in 574.0826000000001ms
+16.11.2019 21:39:30 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:30 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/bootstrap/dist/css/bootstrap.min.css  
+16.11.2019 21:39:30 Information 6 The file /bootstrap/dist/css/bootstrap.min.css was not modified
+16.11.2019 21:39:30 Information 2 Request finished in 27.145100000000003ms 304 text/css
+16.11.2019 21:39:30 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/site.js  
+16.11.2019 21:39:30 Information 6 The file /site.js was not modified
+16.11.2019 21:39:30 Information 2 Request finished in 15.9341ms 304 application/javascript
+16.11.2019 21:39:30 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/signal-r.js  
+16.11.2019 21:39:30 Information 6 The file /signal-r.js was not modified
+16.11.2019 21:39:30 Information 2 Request finished in 17.398500000000002ms 304 application/javascript
+16.11.2019 21:39:30 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/toastr.js/toastr.min.css  
+16.11.2019 21:39:30 Information 6 The file /toastr.js/toastr.min.css was not modified
+16.11.2019 21:39:30 Information 2 Request finished in 658.9645ms 304 application/javascript
+16.11.2019 21:39:30 Information 2 Request finished in 658.9633ms 304 application/javascript
+16.11.2019 21:39:31 Information 1 Request starting HTTP/2.0 POST https://localhost:44368/transaction/negotiate text/plain;charset=UTF-8 0
+16.11.2019 21:39:31 Information 0 Executing endpoint '/transaction/negotiate'
+16.11.2019 21:39:31 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:31 Information 2 Request finished in 30.5748ms 200 application/json
+16.11.2019 21:39:31 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=_ogtnyaKvGcm1dw57G_ycw  
+16.11.2019 21:39:31 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:32 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/  
+16.11.2019 21:39:32 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:32 Information 3 Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:32 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:32 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.12810000000000002ms.
+16.11.2019 21:39:32 Information 1 Executing ViewResult, running view Index.
+16.11.2019 21:39:32 Information 4 Executed ViewResult - view Index executed in 10.975800000000001ms.
+16.11.2019 21:39:32 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) in 55.1998ms
+16.11.2019 21:39:32 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:32 Information 1 Executed endpoint '/transaction'
+16.11.2019 21:39:32 Information 0 Executing endpoint '/transaction/negotiate'
+16.11.2019 21:39:32 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:32 Information 2 Request finished in 101.41720000000001ms 200 application/json
+16.11.2019 21:39:32 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=TD-k1E5lmu3O7SXdgKHYcw  
+16.11.2019 21:39:32 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:33 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/home/transaction  
+16.11.2019 21:39:33 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:33 Information 3 Route matched with {action = "Transaction", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Transaction() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:33 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:33 Information 10403 Entity Framework Core 3.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Firstcod.FC.MvcCore.Web 
+16.11.2019 21:39:35 Information 20100 Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Account], [a].[Amount], [a].[CreateDate], [a].[StateId], [a].[TransactionHash], [a].[UpdateDate]
+FROM [AppTransactions] AS [a]
+16.11.2019 21:39:35 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2079.5612ms.
+16.11.2019 21:39:35 Information 1 Executing ViewResult, running view Transaction.
+16.11.2019 21:39:35 Information 4 Executed ViewResult - view Transaction executed in 20.1771ms.
+16.11.2019 21:39:35 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) in 2148.447ms
+16.11.2019 21:39:35 Information 1 Executed endpoint '/transaction'
+16.11.2019 21:39:35 Information 2 Request finished in 2845.9585ms 101 
+16.11.2019 21:39:35 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:35 Information 2 Request finished in 2302.0957000000003ms 200 text/html; charset=utf-8
+16.11.2019 21:39:35 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=BuTUi2JLo55M5EDxrDrMdg  
+16.11.2019 21:39:35 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:41 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/home/transaction  
+16.11.2019 21:39:41 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:41 Information 3 Route matched with {action = "Transaction", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Transaction() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:41 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:41 Information 10403 Entity Framework Core 3.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Firstcod.FC.MvcCore.Web 
+16.11.2019 21:39:41 Information 20100 Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Account], [a].[Amount], [a].[CreateDate], [a].[StateId], [a].[TransactionHash], [a].[UpdateDate]
+FROM [AppTransactions] AS [a]
+16.11.2019 21:39:41 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 41.1751ms.
+16.11.2019 21:39:41 Information 1 Executing ViewResult, running view Transaction.
+16.11.2019 21:39:41 Information 4 Executed ViewResult - view Transaction executed in 9.2634ms.
+16.11.2019 21:39:41 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) in 160.3749ms
+16.11.2019 21:39:41 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:41 Information 2 Request finished in 292.5852ms 200 text/html; charset=utf-8
+16.11.2019 21:39:41 Information 2 Request finished in 119.98100000000001ms 200 application/json
+16.11.2019 21:39:41 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=tJfSLAs-5E8MHBS8Dn3AqQ  
+16.11.2019 21:39:41 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:42 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/  
+16.11.2019 21:39:42 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:42 Information 3 Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:42 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:42 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.11810000000000001ms.
+16.11.2019 21:39:42 Information 1 Executing ViewResult, running view Index.
+16.11.2019 21:39:42 Information 4 Executed ViewResult - view Index executed in 11.931700000000001ms.
+16.11.2019 21:39:42 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) in 68.59870000000001ms
+16.11.2019 21:39:42 Information 1 Executed endpoint '/transaction'
+16.11.2019 21:39:42 Information 2 Request finished in 765.1038000000001ms 101 
+16.11.2019 21:39:42 Information 0 Executing endpoint '/transaction/negotiate'
+16.11.2019 21:39:42 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:42 Information 2 Request finished in 109.79520000000001ms 200 application/json
+16.11.2019 21:39:42 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=r3Mt4D2xbVkvOVYDhiK_Mw  
+16.11.2019 21:39:42 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:43 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/home/transaction  
+16.11.2019 21:39:43 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:43 Information 3 Route matched with {action = "Transaction", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Transaction() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:43 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:43 Information 10403 Entity Framework Core 3.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Firstcod.FC.MvcCore.Web 
+16.11.2019 21:39:43 Information 20100 Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Account], [a].[Amount], [a].[CreateDate], [a].[StateId], [a].[TransactionHash], [a].[UpdateDate]
+FROM [AppTransactions] AS [a]
+16.11.2019 21:39:43 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 23.3606ms.
+16.11.2019 21:39:43 Information 1 Executing ViewResult, running view Transaction.
+16.11.2019 21:39:43 Information 4 Executed ViewResult - view Transaction executed in 8.434700000000001ms.
+16.11.2019 21:39:43 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) in 104.07140000000001ms
+16.11.2019 21:39:43 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:43 Information 0 Executing endpoint '/transaction/negotiate'
+16.11.2019 21:39:43 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:43 Information 2 Request finished in 113.9509ms 200 application/json
+16.11.2019 21:39:43 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=5qI_AOKbhq1n4fBvd2hqXA  
+16.11.2019 21:39:43 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:44 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/home/edit/9  
+16.11.2019 21:39:44 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Edit (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:44 Information 3 Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int64) on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:44 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Edit (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:44 Information 10403 Entity Framework Core 3.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Firstcod.FC.MvcCore.Web 
+16.11.2019 21:39:44 Information 20100 Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Account], [a].[Amount], [a].[CreateDate], [a].[StateId], [a].[TransactionHash], [a].[UpdateDate]
+FROM [AppTransactions] AS [a]
+WHERE ([a].[Id] = @__id_0) AND @__id_0 IS NOT NULL
+16.11.2019 21:39:45 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Edit (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 92.87700000000001ms.
+16.11.2019 21:39:45 Information 1 Executing ViewResult, running view Edit.
+16.11.2019 21:39:45 Information 4 Executed ViewResult - view Edit executed in 10.707600000000001ms.
+16.11.2019 21:39:45 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Edit (Firstcod.FC.MvcCore.Web) in 183.8295ms
+16.11.2019 21:39:45 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Edit (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:45 Information 2 Request finished in 334.8944ms 200 text/html; charset=utf-8
+16.11.2019 21:39:45 Information 2 Request finished in 113.3074ms 200 application/json
+16.11.2019 21:39:45 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=y3G1r9ufKl-N7Uc76El6bw  
+16.11.2019 21:39:45 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:47 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/  
+16.11.2019 21:39:47 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:47 Information 3 Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:47 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:47 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.08ms.
+16.11.2019 21:39:47 Information 1 Executing ViewResult, running view Index.
+16.11.2019 21:39:47 Information 4 Executed ViewResult - view Index executed in 8.423300000000001ms.
+16.11.2019 21:39:47 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web) in 77.1743ms
+16.11.2019 21:39:47 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Index (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:47 Information 2 Request finished in 206.46040000000002ms 200 text/html; charset=utf-8
+16.11.2019 21:39:47 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:47 Information 2 Request finished in 110.705ms 200 application/json
+16.11.2019 21:39:47 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=B-L387fi8U1ESYFRx0RgCA  
+16.11.2019 21:39:47 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:47 Information 1 Request starting HTTP/2.0 GET https://localhost:44368/home/transaction  
+16.11.2019 21:39:47 Information 0 Executing endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:47 Information 3 Route matched with {action = "Transaction", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Transaction() on controller Firstcod.FC.MvcCore.Web.Controllers.HomeController (Firstcod.FC.MvcCore.Web).
+16.11.2019 21:39:47 Information 1 Executing action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) - Validation state: Valid
+16.11.2019 21:39:47 Information 10403 Entity Framework Core 3.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Firstcod.FC.MvcCore.Web 
+16.11.2019 21:39:47 Information 20100 Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Account], [a].[Amount], [a].[CreateDate], [a].[StateId], [a].[TransactionHash], [a].[UpdateDate]
+FROM [AppTransactions] AS [a]
+16.11.2019 21:39:47 Information 2 Executed action method Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.5427ms.
+16.11.2019 21:39:47 Information 1 Executing ViewResult, running view Transaction.
+16.11.2019 21:39:47 Information 4 Executed ViewResult - view Transaction executed in 9.161900000000001ms.
+16.11.2019 21:39:47 Information 2 Executed action Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web) in 84.1589ms
+16.11.2019 21:39:47 Information 1 Executed endpoint 'Firstcod.FC.MvcCore.Web.Controllers.HomeController.Transaction (Firstcod.FC.MvcCore.Web)'
+16.11.2019 21:39:47 Information 0 Executing endpoint '/transaction/negotiate'
+16.11.2019 21:39:47 Information 1 Executed endpoint '/transaction/negotiate'
+16.11.2019 21:39:47 Information 2 Request finished in 86.5246ms 200 application/json
+16.11.2019 21:39:47 Information 1 Request starting HTTP/1.1 GET https://localhost:44368/transaction?id=DVs5ks-I7OxGSdRuKqaGSg  
+16.11.2019 21:39:47 Information 0 Executing endpoint '/transaction'
+16.11.2019 21:39:51 Information 1 Executed endpoint '/transaction'
+16.11.2019 21:39:51 Information 2 Request finished in 3482.0896000000002ms 101 
