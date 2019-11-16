@@ -49,8 +49,6 @@ namespace Firstcod.FC.MvcCore.Web.Controllers
 
                 await _hub.Clients.All.Notify("Insert");
 
-                _logger.LogInformation("Create Insert: " + DateTime.Now);
-
                 return Json(new { message = "Insert Form!" });
             }
             catch(Exception e)
